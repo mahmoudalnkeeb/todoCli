@@ -4,6 +4,7 @@ TODO-CLI is a command line interface todo app built with NodeJS and SQLite.
 
 ## installation
 
+- clone project with `git clone https://github.com/7odadocoding/todoCli.git`
 - after navigating to the project root folder
 - run `npm install` to install all dependencies.
 - run `npm install global` so you can access the `todo` command anywhere on ur pc.
