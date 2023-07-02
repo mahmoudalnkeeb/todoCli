@@ -18,32 +18,32 @@ The following commands are available for managing your todos:
 
 `todo new --title=[title] [--desc=[description]]`
 
-[title] (required): The title of the todo.
+**[title] (required)**: The title of the todo.
 
-[description] (optional): The description of the todo.
+**[description] (optional)**: The description of the todo.
 
 ### Get todos
 
 `todo get [--filter=[filter]] [--id=[id]]`
 
-[filter] (optional): The filter to apply. Possible values: `'all'`, `'done'`, `'undone'`. Default: `'all'`.
+**[filter] (optional)**: The filter to apply. Possible values: `'all'`, `'done'`, `'undone'`. Default: `'all'`.
 
-[id] (optional): The ID of a specific todo to retrieve.
+**[id] (optional)**: The ID of a specific todo to retrieve.
 
 ### Mark todo as done
 
 `todo done --id=[id]`
 
-[id] (required): The ID of the todo to mark as done.
+**[id] (required)**: The ID of the todo to mark as done.
 
 ### Mark todo as undone
 
 `todo undone --id=[id]`
 
-[id] (required): The ID of the todo to mark as undone.
+**[id] (required)**: The ID of the todo to mark as undone.
 
 ### Delete a todo
 
 `todo delete --id=[id]`
 
-[id] (required): The ID of the todo to delete.
+**[id] (required)**: The ID of the todo to delete.
