@@ -1,0 +1,4 @@
+.notes
+/target
+/node_modules
+todos.db

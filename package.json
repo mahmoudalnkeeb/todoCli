@@ -1,0 +1,23 @@
+{
+  "name": "cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./bin/todo.js",
+  "scripts": {
+    "start": "node bin/todo.js",
+    "migrate": "node migrate.js"
+  },
+  "bin": {
+    "todo": "./bin/todo.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "configstore": "^6.0.0",
+    "jsonfile": "^6.1.0",
+    "minimist": "^1.2.8",
+    "sqlite3": "^5.1.6"
+  }
+}
