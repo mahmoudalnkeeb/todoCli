@@ -1,4 +1,5 @@
-#!/usr/bin/env node\
+#!/usr/bin/env node
+
 const argv = require('minimist')(process.argv.slice(2));
 const sqlite3 = require('sqlite3').verbose();
 const { dbFile } = require('../configs/env');
